@@ -16,7 +16,7 @@ const Home = () => {
             </h1>
 
             <p className='text-gray-400 text-lg mb-8 max-w-lg mx-auto'>
-             Am frondend web developer who loves making great, responsive web applications.
+             A frondend web developer who loves making great, responsive web applications.
             </p>
             <div className='flex justify-center space-x-4'>
               <a href="#projects" className='bg-blue-500 text-white py-3 px-6 rounded font-medium

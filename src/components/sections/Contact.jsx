@@ -53,7 +53,7 @@ const Contact = () => {
                   name='email' 
                   required 
                   value={formData.email}
-                  className='w-full bg-white/5 border
+                  className='w-full lg:w-150 bg-white/5 border
                   border-white/10 rounded px-4 py-3 text-white transition 
                   focus:outline-none focus:border-blue-500  focus:bg-blue-500/5' 
                   placeholder='example@gmail.com'
@@ -68,7 +68,7 @@ const Contact = () => {
                   required
                   value={formData.message}
                   row={5}
-                  className='w-full bg-white/5 border
+                  className='w-full lg:w-150 bg-white/5 border
                   border-white/10 rounded px-4 py-3 text-white transition 
                   focus:outline-none focus:border-blue-500  focus:bg-blue-500/5' 
                   placeholder='Your Message...'
@@ -76,12 +76,23 @@ const Contact = () => {
                   />
                 </div> 
                   
-                  <button type='submit' className='w-full bg-blue-500 text-white py-3 px-6 rounded font-medium 
+                  <button type='submit' className='w-full lg:w-150  bg-blue-500 text-white py-3 px-6 rounded font-medium 
                   transition relative overflow-hidden hover:-translate-y-0.5 
                   hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]'>
                     Send Message
                   </button>
+                  
+                  
              </form>
+
+             <a 
+                   href="https://x.com/atemsjumbo?t=_Z5t5h-ZRHRT1Ac9mT7UCA&s=09"
+                   target="blank"
+                  className='w-full lg:w-150 flex gap-6 mt-4 bg-white text-black py-3 px-13 rounded font-medium 
+                  transition relative overflow-hidden hover:-translate-y-0.5 
+                  hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]'>
+                    Reach Me On <img src="twitter.png" alt="" className='size-6'/>
+                  </a>
             </div>
         </RevealOnScroll>
     </section>
