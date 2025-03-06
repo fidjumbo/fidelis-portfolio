@@ -40,9 +40,9 @@ const Projects = () => {
            <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30
            hover:shadow-[0_2px_8px_rgba(59,130,2246,0.1)] transition-all'>
             <h3 className='text-xl font-bold mb-2'>Movie Website</h3>
-            <p className='text-gray-400 mb-4'>A responsive movie landing page website that displays movie 
-                from a movie API, movies can searched on the search bar to be displayed from the movie API, and finally
-                has a trending section displaying trending movies based on users search result.</p>
+            <p className='text-gray-400 mb-4'>A responsive movie landing page that displays movie 
+                from a movie API, movies can be searched on the search bar to be displayed from the movie API, and finally
+                has a trending section displaying the most searched movies based on what users search the most.</p>
             <div className='flex gap-1 mt-2'>
                 <p className=' text-blue-500 '>React Tailwind TMDB API</p>
                 
